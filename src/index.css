@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.addStudent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  input {
+    padding: 10px;
+    margin: 10px;
+  }
+}
+
+#login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#student-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  height: 37px;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  font-size: 13.33px !important;
+  top: -6px !important;
+  font-weight: 400 !important;
+}
+
+.css-pfbesl-MuiTableContainer-root {
+  max-height: 72vh !important;
+  height: 100%;
+}
+.css-k73gaf {
+  max-height: 72vh !important;
+  height: 100%;
+}
+
+.css-1ex1afd-MuiTableCell-root {
+  padding: 12px !important;
+}
+
+.login-container {
+  background-color: aqua;
+  width: 100%;
+  height: 100%;
+  background-image: url("../public/view-school-building.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+@media only screen and (max-width: 600px) {
+  .css-pfbesl-MuiTableContainer-root {
+    max-height: 62vh !important;
+    height: 100%;
+  }
+  .css-k73gaf {
+    max-height: 62vh !important;
+    height: 100%;
+  }
+  .css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar
+    .MuiTablePagination-actions {
+    margin-left: 2px !important;
+  }
+  .css-8nphli .MuiTablePagination-actions {
+    margin-left: 2px !important;
+  }
+  .css-1a4b21o {
+    padding: 0px !important;
+  }
+}
+
+.css-p0rm37 {
+  top: -8px !important;
+}
